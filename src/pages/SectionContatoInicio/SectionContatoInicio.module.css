@@ -1,0 +1,27 @@
+.fs10 {
+  font-size: 12px;
+  margin-bottom: 0;
+  line-height: 1.2;
+  color: white;
+}
+
+.colorCyan {
+  color: rgb(10, 156, 156);
+}
+
+.bgCyan {
+  background-color: rgb(10, 156, 156) !important;
+}
+
+.bgCinza {
+  background-color: #7d7d7d !important;
+}
+
+.linksSociais {
+  color: white;
+  transition: 0.6s ease-in-out;
+}
+
+.linksSociais:hover {
+  color: rgb(10, 156, 156);
+}
