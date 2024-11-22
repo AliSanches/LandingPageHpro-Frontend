@@ -1,0 +1,25 @@
+.colorCyan {
+  color: rgb(10, 156, 156);
+}
+
+.navLinks {
+  color: black !important;
+  transition: 0.5s ease-in-out !important;
+}
+
+.navLinks:hover {
+  color: rgb(10, 156, 156) !important;
+}
+
+.ContainerFullScreen {
+  height: 100vh !important;
+}
+
+.navFullScreen {
+  color: black !important;
+  transition: 0.5s ease-in-out !important;
+}
+
+.navFullScreen:hover {
+  color: rgb(10, 156, 156) !important;
+}
