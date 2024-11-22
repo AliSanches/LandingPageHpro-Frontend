@@ -1,4 +1,5 @@
 import Header from "./pages/Header/Header";
+import SectionCarrosel from "./pages/SectionCarrosel/SectionCarrosel";
 import SectionContatoInicio from "./pages/SectionContatoInicio/SectionContatoInicio";
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
       <header className="container-fluid">
         <Header />
       </header>
+      <main className="container-fluid p-0">
+        <SectionCarrosel />
+      </main>
     </>
   );
 }
