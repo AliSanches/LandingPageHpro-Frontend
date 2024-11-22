@@ -8,7 +8,10 @@ import contato from "./SectionContatoInicio.module.css";
 
 const SectionContatoInicio = () => {
   return (
-    <div className="container-lg py-2 d-flex justify-content-center align-items-center gap-3 justify-content-sm-between">
+    <div
+      className="container-lg py-2 d-flex justify-content-center align-items-center gap-3 justify-content-sm-between"
+      style={{ height: "38px" }}
+    >
       <div className="d-flex gap-3">
         <div className="d-flex gap-1">
           <FaPhoneAlt className={contato.colorCyan} />
@@ -20,13 +23,17 @@ const SectionContatoInicio = () => {
         </div>
       </div>
       <div className="d-sm-flex d-none gap-2">
-        <button className={`btn text-white ${contato.bgCyan}`}>Cliente</button>
+        <button className={`btn text-white btn-sm ${contato.bgCyan}`}>
+          Cliente
+        </button>
         <button
-          className={`btn text-white d-none d-md-block ${contato.bgCinza}`}
+          className={`btn text-white btn-sm d-none d-md-block ${contato.bgCinza}`}
         >
           Trabalhe Conosco
         </button>
-        <button className={`btn text-white ${contato.bgCyan}`}>Nuvem</button>
+        <button className={`btn text-white btn-sm ${contato.bgCyan}`}>
+          Nuvem
+        </button>
       </div>
       <div className="d-none d-lg-flex gap-3 text-white fs-4">
         <a href="#" className={contato.linksSociais}>
