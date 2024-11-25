@@ -1,5 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
-import ExampleCarouselImage from "/bg-carrosel.jpg";
+import bg01 from "/bg-carrosel.jpg";
+import bg02 from "/bg-carrosel2.jpg";
+import bg03 from "/bg-carrosel3.jpg";
 
 import conter from "./SectionCarrosel.module.css";
 
@@ -9,36 +11,36 @@ const SectionCarrosel = () => {
       <Carousel.Item>
         <img
           className={`${conter.conterCarrosel} w-100 d-block`}
-          src={ExampleCarouselImage}
-          alt={ExampleCarouselImage}
+          src={bg01}
+          alt={bg01}
         />
         <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h2 className={conter.coloCyan}>TI é o Futuro</h2>
+          <p>e nós cuidamos do futuro da sua empresa.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className={`${conter.conterCarrosel} w-100 d-block`}
-          src={ExampleCarouselImage}
-          alt={ExampleCarouselImage}
+          src={bg02}
+          alt={bg02}
         />
         <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h2 className={conter.coloCyan}>
+            Aqui você encontrar a solução que você precisa
+          </h2>
+          <p>para aprimorar a gestão da sua empresa.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className={`${conter.conterCarrosel} w-100 d-block`}
-          src={ExampleCarouselImage}
-          alt={ExampleCarouselImage}
+          src={bg03}
+          alt={bg03}
         />
         <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h2 className={conter.coloCyan}>HLOG</h2>
+          <p>Um canal de noticias que você pode acompanhar</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
