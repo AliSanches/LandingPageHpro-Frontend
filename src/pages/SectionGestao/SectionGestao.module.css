@@ -1,0 +1,27 @@
+.colorCyan {
+  color: rgb(10, 156, 156);
+  font-weight: 700;
+}
+
+@media (min-width: 320px) {
+  .logo {
+    min-width: 280px;
+  }
+
+  .movie {
+    min-width: 280px;
+    min-height: 200px;
+  }
+}
+
+@media (min-width: 500px) {
+  .movie {
+    min-height: 350px;
+  }
+}
+
+@media (min-width: 1050px) {
+  .movie {
+    min-height: 580px;
+  }
+}
