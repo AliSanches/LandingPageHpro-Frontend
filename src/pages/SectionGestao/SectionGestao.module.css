@@ -21,6 +21,11 @@
 }
 
 @media (min-width: 1050px) {
+  .logo {
+    min-width: 580px;
+    cursor: pointer;
+  }
+
   .movie {
     min-height: 580px;
   }

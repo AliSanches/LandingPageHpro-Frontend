@@ -11,7 +11,6 @@ const SectionCarrosel = () => {
       <Carousel.Item>
         <img
           className={`${conter.conterCarrosel} w-100 d-block`}
-          style={{ height: "240px" }}
           src={bg01}
           alt={bg01}
         />
@@ -23,7 +22,6 @@ const SectionCarrosel = () => {
       <Carousel.Item>
         <img
           className={`${conter.conterCarrosel} w-100 d-block`}
-          style={{ height: "240px" }}
           src={bg02}
           alt={bg02}
         />
@@ -37,7 +35,6 @@ const SectionCarrosel = () => {
       <Carousel.Item>
         <img
           className={`${conter.conterCarrosel} w-100 d-block`}
-          style={{ height: "240px" }}
           src={bg03}
           alt={bg03}
         />

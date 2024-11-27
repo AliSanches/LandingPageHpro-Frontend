@@ -26,7 +26,7 @@ const SectionGestao = () => {
           <img
             src={diretoria}
             alt={diretoria}
-            className={conter.logo}
+            className={`${conter.logo}`}
             onClick={handleClick}
           />
         )}

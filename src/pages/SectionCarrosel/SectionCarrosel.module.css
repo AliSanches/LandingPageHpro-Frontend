@@ -2,6 +2,12 @@
   color: rgb(10, 156, 156);
 }
 
+@media (min-width: 320px) {
+  .conterCarrosel {
+    height: 260px;
+  }
+}
+
 @media (min-width: 992px) {
   .conterCarrosel {
     height: 700px;
