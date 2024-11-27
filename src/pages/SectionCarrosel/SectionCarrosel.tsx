@@ -11,6 +11,7 @@ const SectionCarrosel = () => {
       <Carousel.Item>
         <img
           className={`${conter.conterCarrosel} w-100 d-block`}
+          style={{ height: "240px" }}
           src={bg01}
           alt={bg01}
         />
@@ -22,12 +23,13 @@ const SectionCarrosel = () => {
       <Carousel.Item>
         <img
           className={`${conter.conterCarrosel} w-100 d-block`}
+          style={{ height: "240px" }}
           src={bg02}
           alt={bg02}
         />
         <Carousel.Caption>
           <h2 className={conter.coloCyan}>
-            Aqui você encontrar a solução que você precisa
+            Aqui você vai encontrar a solução que você precisa
           </h2>
           <p>para aprimorar a gestão da sua empresa.</p>
         </Carousel.Caption>
@@ -35,11 +37,12 @@ const SectionCarrosel = () => {
       <Carousel.Item>
         <img
           className={`${conter.conterCarrosel} w-100 d-block`}
+          style={{ height: "240px" }}
           src={bg03}
           alt={bg03}
         />
         <Carousel.Caption>
-          <h2 className={conter.coloCyan}>HLOG</h2>
+          <h2 className={conter.coloCyan}>H-Blog</h2>
           <p>Um canal de noticias que você pode acompanhar</p>
         </Carousel.Caption>
       </Carousel.Item>
