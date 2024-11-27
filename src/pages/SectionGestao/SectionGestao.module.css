@@ -22,7 +22,7 @@
 
 @media (min-width: 1050px) {
   .logo {
-    min-width: 580px;
+    width: 1100px;
     cursor: pointer;
   }
 
